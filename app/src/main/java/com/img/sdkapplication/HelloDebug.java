@@ -4,7 +4,7 @@ import android.content.Context;
 import android.util.Log;
 import android.widget.Toast;
 
-public class HelloDebug {
+public  class HelloDebug {
     public static final String TAG = "SUPER_AWESOME_APP";
 
     public static void d(String message){

@@ -14,5 +14,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         HelloDebug.d("okk");
         HelloDebug.ToastShow(this, "Now Okk");
+
+    }
+
+    public void showToast(){
+
+        HelloDebug.ToastShow(this, "Now Okk");
+
     }
 }
